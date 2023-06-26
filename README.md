@@ -1,84 +1,15 @@
-# Stand-Lua README
+# Stand and Natives Snippets for Pluto
 
 ## Features
-This extension add the snippets to make lua scripts for Stand.
+This extension add the snippets to make [Pluto](https://pluto-lang.org/) scripts for Stand ().
 
 ## Settings
-[Use Sumneko Lua extension](https://marketplace.visualstudio.com/items?itemName=sumneko.lua).
+[Use Pluto Language Server](https://marketplace.visualstudio.com/items?itemName=calamity-inc.pluto-language-server)
 
-I recommend adding this to the **WORKSPACE SETTINGS** _(Command Palette > settings.json)_.
-
-```
-"Lua.diagnostics.globals": [
-    "menu",
-    "players",
-    "entities",
-    "chat",
-    "directx",
-    "util",
-    "v3",
-    "lang",
-    "filesystem",
-    "https",
-    "memory",
-    "profiling",
-    "SYSTEM",
-    "APP",
-    "AUDIO",
-    "BRAIN",
-    "CAM",
-    "CLOCK",
-    "CUTSCENE",
-    "DATAFILE",
-    "DECORATOR",
-    "DLC",
-    "ENTITY",
-    "EVENT",
-    "FILES",
-    "FIRE",
-    "GRAPHICS",
-    "HUD",
-    "INTERIOR",
-    "ITEMSET",
-    "LOADINGSCREEN",
-    "LOCALIZATION",
-    "MISC",
-    "MOBILE",
-    "MONEY",
-    "NETSHOPPING",
-    "NETWORK",
-    "OBJECT",
-    "PAD",
-    "PATHFIND",
-    "PED",
-    "PHYSICS",
-    "PLAYER",
-    "RECORDING",
-    "REPLAY",
-    "SAVEMIGRATION",
-    "SCRIPT",
-    "SECURITY",
-    "SHAPETEST",
-    "SOCIALCLUB",
-    "STATS",
-    "STREAMING",
-    "TASK",
-    "VEHICLE",
-    "WATER",
-    "WEAPON",
-    "ZONE"
-],
-"Lua.runtime.nonstandardSymbol": [
-    "+=",
-    "-=",
-    "!=",
-    "*=",
-    "/="
-],
-```
+[Use Pluto Sintax Highlighting](https://marketplace.visualstudio.com/items?itemName=calamity-inc.pluto-syntax-highlighting)
 
 ## How to install
-1. Go to [release folder](https://github.com/ExoticGamerrrYT/stand-lua-snippets-vscode-extension/tree/master/release).
+1. Go to [release folder](https://github.com/ExoticGamerrrYT/stand-pluto-snippets-vscode-extension/tree/master/release).
 2. Download the `.vsix` file and then drag and drop to the extensions panel in Visual Studio Code.
 ## Shortcut
 Here is a useful editor keyboard shortcut:

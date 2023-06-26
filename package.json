@@ -2,16 +2,16 @@
   "name": "stand-lua",
   "displayName": "Stand-Lua",
   "description": "",
-  "icon": "images/logotypev2.png",
+  "icon": "images/logo-pluto-v1.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ExoticGamerrrYT/stand-lua-snippets-vscode-extension"
+    "url": "https://github.com/ExoticGamerrrYT/stand-pluto-snippets-vscode-extension"
   },
   "author": {
     "name": "Exotic Dev // AKA: ExoticGamerrrYT",
     "url": "https://github.com/ExoticGamerrrYT"
   },
-  "version": "0.0.2",
+  "version": "0.0.5",
   "engines": {
     "vscode": "^1.74.0"
   },
