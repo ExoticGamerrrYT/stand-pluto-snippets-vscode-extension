@@ -1,0 +1,29 @@
+{
+  "name": "stand-lua",
+  "displayName": "Stand-Lua",
+  "description": "",
+  "icon": "images/logotypev2.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ExoticGamerrrYT/stand-lua-snippets-vscode-extension"
+  },
+  "author": {
+    "name": "Exotic Dev // AKA: ExoticGamerrrYT",
+    "url": "https://github.com/ExoticGamerrrYT"
+  },
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "pluto",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

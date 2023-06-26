@@ -1,0 +1,549 @@
+{
+	// -> STAND API
+    "util": {
+		"prefix": "util",
+		"body": [
+			"util$0"
+		],
+		"description": "util."
+	},
+	"menu":{
+		"prefix": "menu",
+		"body": "menu$0",
+		"description": "menu.",
+	},
+	"action":{
+		"prefix": "action()",
+		"body": "action($0)",
+		"description": "action()",
+	},
+	"require_natives":{
+		"prefix": "require_natives()",
+		"body": "require_natives($0)",
+		"description": "require_natives()"
+	},
+	"keep_running":{
+		"prefix": "keep_running()",
+		"body": "keep_running()$0",
+		"description": "keep_running()"
+	},
+	"my_root":{
+		"prefix": "my_root()",
+		"body": "my_root()$0",
+		"description": "my_root()"
+	},
+	"players":{
+		"prefix": "players",
+		"body": "players$0",
+		"description": "players."
+	},
+	"entities":{
+		"prefix": "entities",
+		"body": "entities$0",
+		"description": "entities."
+	},
+	"chat":{
+		"prefix": "chat",
+		"body": "chat$0",
+		"description": "chat."
+	},
+	"directx":{
+		"prefix": "directx",
+		"body": "directx$0",
+		"description": "directx."
+	},
+	"v3":{
+		"prefix": "v3",
+		"body": "v3$0",
+		"description": "v3."
+	},
+	"lang":{
+		"prefix": "lang",
+		"body": "lang$0",
+		"description": "lang."
+	},
+	"filesystem":{
+		"prefix": "filesystem",
+		"body": "filesystem$0",
+		"description": "filesystem."
+	},
+	"memory":{
+		"prefix": "memory",
+		"body": "memory$0",
+		"description": "memory."
+	},
+	"profiling":{
+		"prefix": "profiling",
+		"body": "profiling$0",
+		"description": "profiling."
+	},
+
+	// -> NAMESPACES
+	"SYSTEM":{
+		"prefix": "SYSTEM",
+		"body": "SYSTEM$0",
+		"description": "GTAV SYSTEM."
+	},
+	"APP":{
+		"prefix": "APP",
+		"body": "APP$0",
+		"description": "GTAV APP."
+	},
+	"AUDIO":{
+		"prefix": "AUDIO",
+		"body": "AUDIO$0",
+		"description": "GTAV AUDIO."
+	},
+	"BRAIN":{
+		"prefix": "BRAIN",
+		"body": "BRAIN$0",
+		"description": "GTAV BRAIN."
+	},
+	"CAM":{
+		"prefix": "CAM",
+		"body": "CAM$0",
+		"description": "GTAV CAM."
+	},
+	"CLOCK":{
+		"prefix": "CLOCK",
+		"body": "CLOCK$0",
+		"description": "GTAV CLOCK."
+	},
+	"CUTSCENE":{
+		"prefix": "CUTSCENE",
+		"body": "CUTSCENE$0",
+		"description": "GTAV CUTSCENE."
+	},
+	"DATAFILE":{
+		"prefix": "DATAFILE",
+		"body": "DATAFILE$0",
+		"description": "GTAV DATAFILE."
+	},
+	"DECORATOR":{
+		"prefix": "DECORATOR",
+		"body": "DECORATOR$0",
+		"description": "GTAV DECORATOR."
+	},
+	"DLC":{
+		"prefix": "DLC",
+		"body": "DLC$0",
+		"description": "GTAV DLC."
+	},
+	"ENTITY":{
+		"prefix": "ENTITY",
+		"body": "ENTITY$0",
+		"description": "GTAV ENTITY."
+	},
+	"EVENT":{
+		"prefix": "EVENT",
+		"body": "EVENT$0",
+		"description": "GTAV EVENT."
+	},
+	"FILES":{
+		"prefix": "FILES",
+		"body": "FILES$0",
+		"description": "GTAV FILES."
+	},
+	"FIRE":{
+		"prefix": "FIRE",
+		"body": "FIRE$0",
+		"description": "GTAV FIRE."
+	},
+	"GRAPHICS":{
+		"prefix": "GRAPHICS",
+		"body": "GRAPHICS$0",
+		"description": "GTAV GRAPHICS."
+	},
+	"HUD":{
+		"prefix": "HUD",
+		"body": "HUD$0",
+		"description": "GTAV HUD."
+	},
+	"INTERIOR":{
+		"prefix": "INTERIOR",
+		"body": "INTERIOR$0",
+		"description": "GTAV INTERIOR."
+	},
+	"ITEMSET":{
+		"prefix": "ITEMSET",
+		"body": "ITEMSET$0",
+		"description": "GTAV ITEMSET."
+	},
+	"LOADINGSCREEN":{
+		"prefix": "LOADINGSCREEN",
+		"body": "LOADINGSCREEN$0",
+		"description": "GTAV LOADINGSCREEN."
+	},
+	"LOCALIZATION":{
+		"prefix": "LOCALIZATION",
+		"body": "LOCALIZATION$0",
+		"description": "GTAV LOCALIZATION."
+	},
+	"MISC":{
+		"prefix": "MISC",
+		"body": "MISC$0",
+		"description": "GTAV MISC."
+	},
+	"MOBILE":{
+		"prefix": "MOBILE",
+		"body": "MOBILE$0",
+		"description": "GTAV MOBILE."
+	},
+	"MONEY":{
+		"prefix": "MONEY",
+		"body": "MONEY$0",
+		"description": "GTAV MONEY."
+	},
+	"NETSHOPPING":{
+		"prefix": "NETSHOPPING",
+		"body": "NETSHOPPING$0",
+		"description": "GTAV NETSHOPPING."
+	},
+	"NETWORK":{
+		"prefix": "NETWORK",
+		"body": "NETWORK$0",
+		"description": "GTAV NETWORK."
+	},
+	"OBJECT":{
+		"prefix": "OBJECT",
+		"body": "OBJECT$0",
+		"description": "GTAV OBJECT."
+	},
+	"PAD":{
+		"prefix": "PAD",
+		"body": "PAD$0",
+		"description": "GTAV PAD."
+	},
+	"PATHFIND":{
+		"prefix": "PATHFIND",
+		"body": "PATHFIND$0",
+		"description": "GTAV PATHFIND."
+	},
+	"PED":{
+		"prefix": "PED",
+		"body": "PED$0",
+		"description": "GTAV PED."
+	},
+	"PHYSICS":{
+		"prefix": "PHYSICS",
+		"body": "PHYSICS$0",
+		"description": "GTAV PHYSICS."
+	},
+	"PLAYER":{
+		"prefix": "PLAYER",
+		"body": "PLAYER$0",
+		"description": "GTAV PLAYER."
+	},
+	"RECORDING":{
+		"prefix": "RECORDING",
+		"body": "RECORDING$0",
+		"description": "GTAV RECORDING."
+	},
+	"REPLAY":{
+		"prefix": "REPLAY",
+		"body": "REPLAY$0",
+		"description": "GTAV REPLAY."
+	},
+	"SAVEMIGRATION":{
+		"prefix": "SAVEMIGRATION",
+		"body": "SAVEMIGRATION$0",
+		"description": "GTAV SAVEMIGRATION"
+	},
+	"SCRIPT":{
+		"prefix": "SCRIPT",
+		"body": "SCRIPT$0",
+		"description": "GTAV SCRIPT."
+	},
+	"SECURITY":{
+		"prefix": "SECURITY",
+		"body": "SECURITY$0",
+		"description": "GTAV SECURITY."
+	},
+	"SHAPETEST":{
+		"prefix": "SHAPETEST",
+		"body": "SHAPETEST$0",
+		"description": "GTAV SHAPETEST."
+	},
+	"SOCIALCLUB":{
+		"prefix": "SOCIALCLUB",
+		"body": "SOCIALCLUB$0",
+		"description": "GTAV SOCIALCLUB."
+	},
+	"STATS":{
+		"prefix": "STATS",
+		"body": "STATS$0",
+		"description": "GTAV STATS."
+	},
+	"STREAMING":{
+		"prefix": "STREAMING",
+		"body": "STREAMING$0",
+		"description": "GTAV STREAMING."
+	},
+	"TASK":{
+		"prefix": "TASK",
+		"body": "TASK$0",
+		"description": "GTAV TASK."
+	},
+	"VEHICLE":{
+		"prefix": "VEHICLE",
+		"body": "VEHICLE$0",
+		"description": "GTAV VEHICLE."
+	},
+	"WATER":{
+		"prefix": "WATER",
+		"body": "WATER$0",
+		"description": "GTAV WATER."
+	},
+	"WEAPON":{
+		"prefix": "WEAPON",
+		"body": "WEAPON$0",
+		"description": "GTAV WEAPON."
+	},
+	"ZONE":{
+		"prefix": "ZONE",
+		"body": "ZONE$0",
+		"description": "GTAV ZONE."
+	},
+
+	// -> NATIVES
+	"WAIT": {
+		"prefix": "WAIT()",
+		"body": "WAIT(${1:int ms})",
+		"description": "SYSTEM::WAIT - It's a void."
+	},
+	"START_NEW_SCRIPT": {
+		"prefix": "START_NEW_SCRIPT()",
+		"body": "START_NEW_SCRIPT(${1:const char* scriptName}, ${2:int stackSize})",
+		"description": "SYSTEM::START_NEW_SCRIPT - It's an int."
+	},
+	"START_NEW_SCRIPT_WITH_ARGS": {
+		"prefix": "START_NEW_SCRIPT_WITH_ARGS()",
+		"body": "START_NEW_SCRIPT_WITH_ARGS(${1:const char* scriptName}, ${2: Any* args}, ${3:int argCount}, ${4:int stackSize})",
+		"description": "SYSTEM::START_NEW_SCRIPT_WITH_ARGS - It's an int."
+	},
+	"START_NEW_SCRIPT_WITH_NAME_HASH": {
+		"prefix": "START_NEW_SCRIPT_WITH_NAME_HASH()",
+		"body": "START_NEW_SCRIPT_WITH_NAME_HASH(${1:Hash scriptHash}, ${2:int stackSize})",
+		"description": "SYSTEM::START_NEW_SCRIPT_WITH_NAME_HASH - It's an int."
+	},
+	"START_NEW_SCRIPT_WITH_NAME_HASH_AND_ARGS": {
+		"prefix": "START_NEW_SCRIPT_WITH_NAME_HASH_AND_ARGS()",
+		"body": "START_NEW_SCRIPT_WITH_NAME_HASH_AND_ARGS(${1:Hash scriptHash}, ${2:Any* args}, ${3:int argCount}, ${4:int stackSize})",
+		"description": "SYSTEM::TIMERA - It's an int."
+	},
+	"TIMERA": {
+		"prefix": "TIMERA()",
+		"body": "TIMERA()",
+		"description": "SYSTEM::TIMERA - Counts up. Every 1000 is 1 real-time second."
+	},
+	"TIMERB": {
+		"prefix": "TIMERB()",
+		"body": "TIMERB()",
+		"description": "SYSTEM::TIMERB - Same as TIMERA()."
+	},
+	"SETTIMERA": {
+		"prefix": "SETTIMERA()",
+		"body": "SETTIMERA(${1:int value})",
+		"description": "SYSTEM::SETTIMERA - It's a void."
+	},
+	"SETTIMERB": {
+		"prefix": "SETTIMERB()",
+		"body": "SETTIMERB(${1:int value})",
+		"description": "SYSTEM::SETTIMERB - It's a void."
+	},
+	"TIMESTEP": {
+		"prefix": "TIMESTEP()",
+		"body": "TIMESTEP()",
+		"description": "SYSTEM::TIMESTEP - Gets the current frame time. It's a float."
+	},
+	"SIN": {
+		"prefix": "SIN()",
+		"body": "SIN(${1:float value})",
+		"description": "SYSTEM::SIN - It's a float."
+	},
+	"COS": {
+		"prefix": "COS()",
+		"body": "COS(${1: float value})",
+		"description": "SYSTEM::COS - It's a float."
+	},
+	"SQRT": {
+		"prefix": "SQRT()",
+		"body": "SQRT(${1:float value})",
+		"description": "SYSTEM::SQRT - It's a float."
+	},
+	"POW": {
+		"prefix": "POW()",
+		"body": "POW(${1:float base}, ${2:float exponent})",
+		"description": "SYSTEM::POW - It's a float."
+	},
+	"LOG10": {
+		"prefix": "LOG10()",
+		"body": "LOG10(${1:float value})",
+		"description": "SYSTEM::LOG10 - It's a float."
+	},
+	"VMAG": {
+		"prefix": "VMAG()",
+		"body": "VMAG(${1:float x}, ${2:float y}, ${3:float z})",
+		"description": "SYSTEM::VMAG - Calculates the magnitude of a vector. It's a float."
+	},
+	"VMAG2": {
+		"prefix": "VMAG2()",
+		"body": "VMAG2(${1:float x}, ${2:float y}, ${3:float z})",
+		"description": "SYSTEM::VMAG2 - Calculates the magnitude of a vector but does not perform Sqrt operations (Its way faster). It's a float."
+	},
+	"VDIST": {
+		"prefix": "VDIST()",
+		"body": "VDIST(${1:float x1}, ${2:float y1}, ${3:float z1}, ${4:float x2}, ${5:float y2}, ${6:float z2})",
+		"description": "SYSTEM::VDIST - Calculates distance between vectors. It's a float."
+	},
+	"VDIST2": {
+		"prefix": "VDIST2()",
+		"body": "VDIST2(${1:float x1}, ${2:float y1}, ${3:float z1}, ${4:float x2}, ${5:float y2}, ${6:float z2})",
+		"description": "SYSTEM::VDIST2 - Calculates distance between vectors but does not perform Sqrt operations (Its way faster). It's a float."
+	},
+	"SHIFT_LEFT": {
+		"prefix": "SHIFT_LEFT()",
+		"body": "SHIFT_LEFT(${1:int value}, ${2:int bitShift})",
+		"description": "SYSTEM::SHIFT_LEFT - It's an int."
+	},
+	"SHIFT_RIGHT": {
+		"prefix": "SHIFT_RIGHT()",
+		"body": "SHIFT_RIGHT(${1:int value}, ${2:int bitShift})",
+		"description": "SYSTEM::SHIFT_RIGHT - It's an int."
+	},
+	"FLOOR": {
+		"prefix": "FLOOR()",
+		"body": "FLOOR(${1:float value})",
+		"description": "SYSTEM::FLOOR - It's an int."
+	},
+	"CEIL": {
+		"prefix": "CEIL()",
+		"body": "CEIL(${1:float value})",
+		"description": "SYSTEM::CEIL - I'm guessing this rounds a float value down to the next whole number. It's an int."
+	},
+	"ROUND": {
+		"prefix": "ROUND()",
+		"body": "ROUND(${1:float value})",
+		"description": "SYSTEM::ROUND - This rounds a float value up to the next whole number. It's an int."
+	},
+	"TO_FLOAT": {
+		"prefix": "TO_FLOAT()",
+		"body": "TO_FLOAT(${1:int value})",
+		"description": "SYSTEM::TO_FLOAT - It's a float."
+	},
+	"SET_THIS_THREAD_PRIORITY": {
+		"prefix": "SET_THIS_THREAD_PRIORITY()",
+		"body": "SET_THIS_THREAD_PRIORITY(${1:int priority})",
+		"description": "SYSTEM::SET_THIS_THREAD_PRIORITY - It's a void."
+	},
+	// -> APP
+	"APP_DATA_VALID": {
+		"prefix": "APP_DATA_VALID()",
+		"body": "APP_DATA_VALID()",
+		"description": "APP::APP_DATA_VALID - It's a bool."
+	},
+	"APP_GET_INT": {
+		"prefix": "APP_GET_INT()",
+		"body": "APP_GET_INT(${1:const char* property})",
+		"description": "APP::APP_GET_INT - It's an int."
+	},
+	"APP_GET_FLOAT": {
+		"prefix": "APP_GET_FLOAT()",
+		"body": "APP_GET_FLOAT(${const char* property})",
+		"description": "APP::APP_GET_FLOAT - It's a float."
+	},
+	"APP_GET_STRING": {
+		"prefix": "APP_GET_STRING()",
+		"body": "APP_GET_STRING(${const char* property})",
+		"description": "APP::APP_GET_STRING - It's a const char*."
+	},
+	"APP_SET_INT": {
+		"prefix": "APP_SET_INT()",
+		"body": "APP_SET_INT(${1:(const char* property}, ${2:int value})",
+		"description": "APP::APP_SET_INT - It's a void."
+	},
+	"APP_SET_FLOAT": {
+		"prefix": "APP_SET_FLOAT",
+		"body": [
+			"APP_SET_FLOAT(${1:const char* property}, ${2:float value});"
+		],
+		"description": "APP::APP_SET_FLOAT - It's a void."
+	},
+	"APP_SET_STRING": {
+		"prefix": "APP_SET_STRING",
+		"body": [
+			"APP_SET_STRING(${1:const char* property}, ${2:const char* value});"
+		],
+		"description": "APP::APP_SET_STRING - It's a void"
+	},	
+	"APP_SET_APP": {
+		"prefix": "APP_SET_APP",
+		"body": [
+			"APP_SET_APP(${1:const char* appName});"
+		],
+		"description": "APP::APP_SET_APP - Called in the gamescripts like:\nAPP::APP_SET_APP(\"car\");\nAPP::APP_SET_APP(\"dog\"); it's a void."
+	},
+	"APP_SET_BLOCK": {
+		"prefix": "APP_SET_BLOCK",
+		"body": [
+			"APP_SET_BLOCK(${1:const char* blockName});"
+		],
+		"description": "APP::APP_SET_BLOCK - It's a void."
+	},
+	"APP_CLEAR_BLOCK": {
+		"prefix": "APP_CLEAR_BLOCK",
+		"body": [
+			"APP_CLEAR_BLOCK();"
+		],
+		"description": "APP::APP_CLEAR_BLOCK - It's a void."
+	},
+	"APP_CLOSE_APP": {
+		"prefix": "APP_CLOSE_APP",
+		"body": [
+			"APP_CLOSE_APP();"
+		],
+		"description": "APP::APP_CLOSE_APP - It's a void."
+	},
+	"APP_CLOSE_BLOCK": {
+		"prefix": "APP_CLOSE_BLOCK",
+		"body": [
+			"APP_CLOSE_BLOCK();"
+		],
+		"description": "APP::APP_CLOSE_BLOCK - It's a void."
+	},
+	"APP_HAS_LINKED_SOCIAL_CLUB_ACCOUNT": {
+		"prefix": "APP_HAS_LINKED_SOCIAL_CLUB_ACCOUNT",
+		"body": [
+			"APP_HAS_LINKED_SOCIAL_CLUB_ACCOUNT();"
+		],
+		"description": "APP::APP_HAS_LINKED_SOCIAL_CLUB_ACCOUNT - It's a BOOL."
+	},
+	"APP_HAS_SYNCED_DATA": {
+		"prefix": "APP_HAS_SYNCED_DATA",
+		"body": [
+			"APP_HAS_SYNCED_DATA(${1:const char* appName});"
+		],
+		"description": "APP::APP_HAS_SYNCED_DATA - It's a BOOL"
+	},
+	"APP_SAVE_DATA": {
+		"prefix": "APP_SAVE_DATA",
+		"body": [
+			"APP_SAVE_DATA();"
+		],
+		"description": "APP::APP_SAVE_DATA - It's a void"
+	},
+	"APP_GET_DELETED_FILE_STATUS": {
+		"prefix": "APP_GET_DELETED_FILE_STATUS",
+		"body": [
+			"APP_GET_DELETED_FILE_STATUS();"
+		],
+		"description": "APP::APP_GET_DELETED_FILE_STATUS - It's an int"
+	},
+	"APP_DELETE_APP_DATA": {
+		"prefix": "APP_DELETE_APP_DATA",
+		"body": [
+			"APP_DELETE_APP_DATA(${1:const char* appName});"
+		],
+		"description": "APP::APP_DELETE_APP_DATA - It's a BOOL"
+	}
+}
